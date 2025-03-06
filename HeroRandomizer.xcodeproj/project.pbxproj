@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F02B61A42D7988B2004B88DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B61A32D7988B2004B88DD /* AppDelegate.swift */; };
+		F02B61A62D7988B2004B88DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B61A52D7988B2004B88DD /* SceneDelegate.swift */; };
+		F02B61A82D7988B2004B88DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B61A72D7988B2004B88DD /* ViewController.swift */; };
+		F02B61AB2D7988B2004B88DD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F02B61AA2D7988B2004B88DD /* Base */; };
+		F02B61AE2D7988B2004B88DD /* HeroRandomizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F02B61AC2D7988B2004B88DD /* HeroRandomizer.xcdatamodeld */; };
+		F02B61B02D7988B7004B88DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02B61AF2D7988B7004B88DD /* Assets.xcassets */; };
+		F02B61B32D7988B7004B88DD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F02B61B22D7988B7004B88DD /* Base */; };
+		F02B61BE2D7988B7004B88DD /* HeroRandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B61BD2D7988B7004B88DD /* HeroRandomizerTests.swift */; };
+		F02B61C82D7988B7004B88DD /* HeroRandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B61C72D7988B7004B88DD /* HeroRandomizerUITests.swift */; };
+		F02B61CA2D7988B7004B88DD /* HeroRandomizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B61C92D7988B7004B88DD /* HeroRandomizerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F02B61BA2D7988B7004B88DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02B61982D7988B2004B88DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02B619F2D7988B2004B88DD;
+			remoteInfo = HeroRandomizer;
+		};
+		F02B61C42D7988B7004B88DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02B61982D7988B2004B88DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02B619F2D7988B2004B88DD;
+			remoteInfo = HeroRandomizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F02B61A02D7988B2004B88DD /* HeroRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B61A32D7988B2004B88DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F02B61A52D7988B2004B88DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F02B61A72D7988B2004B88DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F02B61AA2D7988B2004B88DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F02B61AD2D7988B2004B88DD /* HeroRandomizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeroRandomizer.xcdatamodel; sourceTree = "<group>"; };
+		F02B61AF2D7988B7004B88DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F02B61B22D7988B7004B88DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F02B61B42D7988B7004B88DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02B61B92D7988B7004B88DD /* HeroRandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroRandomizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B61BD2D7988B7004B88DD /* HeroRandomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroRandomizerTests.swift; sourceTree = "<group>"; };
+		F02B61C32D7988B7004B88DD /* HeroRandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroRandomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B61C72D7988B7004B88DD /* HeroRandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroRandomizerUITests.swift; sourceTree = "<group>"; };
+		F02B61C92D7988B7004B88DD /* HeroRandomizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroRandomizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F02B619D2D7988B2004B88DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B61B62D7988B7004B88DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B61C02D7988B7004B88DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F02B61972D7988B2004B88DD = {
+			isa = PBXGroup;
+			children = (
+				F02B61A22D7988B2004B88DD /* HeroRandomizer */,
+				F02B61BC2D7988B7004B88DD /* HeroRandomizerTests */,
+				F02B61C62D7988B7004B88DD /* HeroRandomizerUITests */,
+				F02B61A12D7988B2004B88DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F02B61A12D7988B2004B88DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F02B61A02D7988B2004B88DD /* HeroRandomizer.app */,
+				F02B61B92D7988B7004B88DD /* HeroRandomizerTests.xctest */,
+				F02B61C32D7988B7004B88DD /* HeroRandomizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F02B61A22D7988B2004B88DD /* HeroRandomizer */ = {
+			isa = PBXGroup;
+			children = (
+				F02B61A32D7988B2004B88DD /* AppDelegate.swift */,
+				F02B61A52D7988B2004B88DD /* SceneDelegate.swift */,
+				F02B61A72D7988B2004B88DD /* ViewController.swift */,
+				F02B61A92D7988B2004B88DD /* Main.storyboard */,
+				F02B61AF2D7988B7004B88DD /* Assets.xcassets */,
+				F02B61B12D7988B7004B88DD /* LaunchScreen.storyboard */,
+				F02B61B42D7988B7004B88DD /* Info.plist */,
+				F02B61AC2D7988B2004B88DD /* HeroRandomizer.xcdatamodeld */,
+			);
+			path = HeroRandomizer;
+			sourceTree = "<group>";
+		};
+		F02B61BC2D7988B7004B88DD /* HeroRandomizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F02B61BD2D7988B7004B88DD /* HeroRandomizerTests.swift */,
+			);
+			path = HeroRandomizerTests;
+			sourceTree = "<group>";
+		};
+		F02B61C62D7988B7004B88DD /* HeroRandomizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F02B61C72D7988B7004B88DD /* HeroRandomizerUITests.swift */,
+				F02B61C92D7988B7004B88DD /* HeroRandomizerUITestsLaunchTests.swift */,
+			);
+			path = HeroRandomizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F02B619F2D7988B2004B88DD /* HeroRandomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02B61CD2D7988B8004B88DD /* Build configuration list for PBXNativeTarget "HeroRandomizer" */;
+			buildPhases = (
+				F02B619C2D7988B2004B88DD /* Sources */,
+				F02B619D2D7988B2004B88DD /* Frameworks */,
+				F02B619E2D7988B2004B88DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroRandomizer;
+			productName = HeroRandomizer;
+			productReference = F02B61A02D7988B2004B88DD /* HeroRandomizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F02B61B82D7988B7004B88DD /* HeroRandomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02B61D02D7988B8004B88DD /* Build configuration list for PBXNativeTarget "HeroRandomizerTests" */;
+			buildPhases = (
+				F02B61B52D7988B7004B88DD /* Sources */,
+				F02B61B62D7988B7004B88DD /* Frameworks */,
+				F02B61B72D7988B7004B88DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02B61BB2D7988B7004B88DD /* PBXTargetDependency */,
+			);
+			name = HeroRandomizerTests;
+			productName = HeroRandomizerTests;
+			productReference = F02B61B92D7988B7004B88DD /* HeroRandomizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F02B61C22D7988B7004B88DD /* HeroRandomizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02B61D32D7988B8004B88DD /* Build configuration list for PBXNativeTarget "HeroRandomizerUITests" */;
+			buildPhases = (
+				F02B61BF2D7988B7004B88DD /* Sources */,
+				F02B61C02D7988B7004B88DD /* Frameworks */,
+				F02B61C12D7988B7004B88DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02B61C52D7988B7004B88DD /* PBXTargetDependency */,
+			);
+			name = HeroRandomizerUITests;
+			productName = HeroRandomizerUITests;
+			productReference = F02B61C32D7988B7004B88DD /* HeroRandomizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F02B61982D7988B2004B88DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F02B619F2D7988B2004B88DD = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F02B61B82D7988B7004B88DD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F02B619F2D7988B2004B88DD;
+					};
+					F02B61C22D7988B7004B88DD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F02B619F2D7988B2004B88DD;
+					};
+				};
+			};
+			buildConfigurationList = F02B619B2D7988B2004B88DD /* Build configuration list for PBXProject "HeroRandomizer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F02B61972D7988B2004B88DD;
+			productRefGroup = F02B61A12D7988B2004B88DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F02B619F2D7988B2004B88DD /* HeroRandomizer */,
+				F02B61B82D7988B7004B88DD /* HeroRandomizerTests */,
+				F02B61C22D7988B7004B88DD /* HeroRandomizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F02B619E2D7988B2004B88DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B61B02D7988B7004B88DD /* Assets.xcassets in Resources */,
+				F02B61B32D7988B7004B88DD /* Base in Resources */,
+				F02B61AB2D7988B2004B88DD /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B61B72D7988B7004B88DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B61C12D7988B7004B88DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F02B619C2D7988B2004B88DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B61AE2D7988B2004B88DD /* HeroRandomizer.xcdatamodeld in Sources */,
+				F02B61A82D7988B2004B88DD /* ViewController.swift in Sources */,
+				F02B61A42D7988B2004B88DD /* AppDelegate.swift in Sources */,
+				F02B61A62D7988B2004B88DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B61B52D7988B7004B88DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B61BE2D7988B7004B88DD /* HeroRandomizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B61BF2D7988B7004B88DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B61C82D7988B7004B88DD /* HeroRandomizerUITests.swift in Sources */,
+				F02B61CA2D7988B7004B88DD /* HeroRandomizerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F02B61BB2D7988B7004B88DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02B619F2D7988B2004B88DD /* HeroRandomizer */;
+			targetProxy = F02B61BA2D7988B7004B88DD /* PBXContainerItemProxy */;
+		};
+		F02B61C52D7988B7004B88DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02B619F2D7988B2004B88DD /* HeroRandomizer */;
+			targetProxy = F02B61C42D7988B7004B88DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F02B61A92D7988B2004B88DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F02B61AA2D7988B2004B88DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F02B61B12D7988B7004B88DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F02B61B22D7988B7004B88DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F02B61CB2D7988B7004B88DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F02B61CC2D7988B7004B88DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F02B61CE2D7988B8004B88DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeroRandomizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = madinatroublesolver.HeroRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F02B61CF2D7988B8004B88DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeroRandomizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = madinatroublesolver.HeroRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F02B61D12D7988B8004B88DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = madinatroublesolver.HeroRandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroRandomizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroRandomizer";
+			};
+			name = Debug;
+		};
+		F02B61D22D7988B8004B88DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = madinatroublesolver.HeroRandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroRandomizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroRandomizer";
+			};
+			name = Release;
+		};
+		F02B61D42D7988B8004B88DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = madinatroublesolver.HeroRandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroRandomizer;
+			};
+			name = Debug;
+		};
+		F02B61D52D7988B8004B88DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = madinatroublesolver.HeroRandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroRandomizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F02B619B2D7988B2004B88DD /* Build configuration list for PBXProject "HeroRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B61CB2D7988B7004B88DD /* Debug */,
+				F02B61CC2D7988B7004B88DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02B61CD2D7988B8004B88DD /* Build configuration list for PBXNativeTarget "HeroRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B61CE2D7988B8004B88DD /* Debug */,
+				F02B61CF2D7988B8004B88DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02B61D02D7988B8004B88DD /* Build configuration list for PBXNativeTarget "HeroRandomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B61D12D7988B8004B88DD /* Debug */,
+				F02B61D22D7988B8004B88DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02B61D32D7988B8004B88DD /* Build configuration list for PBXNativeTarget "HeroRandomizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B61D42D7988B8004B88DD /* Debug */,
+				F02B61D52D7988B8004B88DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F02B61AC2D7988B2004B88DD /* HeroRandomizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F02B61AD2D7988B2004B88DD /* HeroRandomizer.xcdatamodel */,
+			);
+			currentVersion = F02B61AD2D7988B2004B88DD /* HeroRandomizer.xcdatamodel */;
+			path = HeroRandomizer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F02B61982D7988B2004B88DD /* Project object */;
+}
